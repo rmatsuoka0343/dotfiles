@@ -6,9 +6,9 @@ Set-Content .gitignore '.venv/'   ← 最初のaddより前に！
 pip install ○○ → freeze → git add . → git commit -m "初期構成"
 
 ## 自作コマンド
-- act       : 仮想環境を有効化
-- mkvenv    : venv作成＋有効化＋pip更新
-- freeze    : requirements.txt を更新
+- vact       : 仮想環境を有効化
+- vnew    : venv作成＋有効化＋pip更新
+- vfreeze    : requirements.txt を更新
 - cheat     : このメモを表示
 
 ## Git
